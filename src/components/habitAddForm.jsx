@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
 class HabitAddForm extends Component {
-  inputRef = React.createRef();
+  inputRef = React.createRef(); //*
 
   onSubmit = (event) => {
     event.preventDefault();
-    const habitname = this.inputRef.current.value;
+    const habitname = this.inputRef.current.value; //* input
     habitname && this.props.onAdd(habitname);
-    this.inputRef.current.value = "";
+    this.inputRef.current.value = ""; //?
   };
 
   render() {

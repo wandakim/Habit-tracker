@@ -6,6 +6,9 @@ button {
   border: 0;
   cursor: pointer;
 }
+ul {
+  padding: 0;
+}
 .navbar {
   background-color:darkslateblue;
   padding: 1rem;
@@ -76,4 +79,12 @@ button {
 .habit-delete {
   color: darkred;
   font-size: 2rem;
+}
+
+.habits-reset {
+  background-color: green;
+  font-size: 1.5rem;
+  color: aliceblue;
+  padding: 0.3em 0.5em; 
+  margin-left: 20px;
 }
